@@ -1,0 +1,18 @@
+Sorted BST height (edges): 9
+Sorted BST worst-case comparisons: 10
+Shuffled BST height (edges): 4
+Red-black tree height (edges): 4
+Insertion events:
+recolor root BLACK
+left rotation at Abad
+recolor around Bautista (uncle red)
+recolor root BLACK
+left rotation at Cruz
+recolor around Dela Cruz (uncle red)
+left rotation at Espiritu
+recolor around Flores (uncle red)
+left rotation at Bautista
+left rotation at Garcia
+recolor around Hernandez (uncle red)
+recolor around Dela Cruz (uncle red)
+recolor root BLACK

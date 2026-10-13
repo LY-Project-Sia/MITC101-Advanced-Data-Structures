@@ -1,0 +1,125 @@
+MITC101 ADS | Seed S=7148
+
+Task 1: n=8148; audit sample m=98; simulated mean updates=5.1552; theory H_m=5.1673; trials=10000
+
+Sorting benchmarks (seconds):
+[
+  {
+    "n": 8148,
+    "algorithm": "merge_sort",
+    "seconds": 0.013742727999996873,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.011580882999993491,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.0007721990000106871,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "bubble_sort",
+    "seconds": 2.546800083000008,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "merge_sort",
+    "seconds": 0.028278237999998623,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.02203610600000161,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.0016793820000060578,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "bubble_sort",
+    "seconds": null,
+    "status": "skipped: O(n^2) benchmark impractical"
+  },
+  {
+    "n": 107148,
+    "algorithm": "merge_sort",
+    "seconds": 0.2245494280000031,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.18245262100001014,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.015149406000006138,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "bubble_sort",
+    "seconds": null,
+    "status": "skipped: O(n^2) benchmark impractical"
+  }
+]
+
+Task 2: queue capacity=28; stack actions=18; wrap-around test passed.
+
+Task 3: table size prime=8161; sorted BST height edges=9; worst-case comparisons=10; shuffled insertion height=see runnable program output.
+
+Task 4: W=29; greedy=2160 PHP ['P1', 'P2', 'P3', 'P4', 'P5', 'P6']; optimal=2320 PHP ['P1', 'P2', 'P3', 'P4', 'P6', 'P7']; naive calls=453; memoized unique-state calls=131; Manila-Davao=17 thousand PHP via Manila -> Cebu -> Davao.
+
+
+Floyd-Warshall matrix after k=1 (Manila as allowed intermediate):
+0	4	∞	12	∞
+4	0	6	16	∞
+∞	6	0	3	10
+12	16	3	0	5
+∞	∞	10	5	0
+
+
+Floyd-Warshall matrix after k=2 (Batangas as allowed intermediate):
+0	4	10	12	∞
+4	0	6	16	∞
+10	6	0	3	10
+12	16	3	0	5
+∞	∞	10	5	0
+
+
+Floyd-Warshall matrix after k=3 (Iloilo as allowed intermediate):
+0	4	10	12	20
+4	0	6	9	16
+10	6	0	3	10
+12	9	3	0	5
+20	16	10	5	0
+
+
+Floyd-Warshall matrix after k=4 (Cebu as allowed intermediate):
+0	4	10	12	17
+4	0	6	9	14
+10	6	0	3	8
+12	9	3	0	5
+17	14	8	5	0
+
+
+Floyd-Warshall matrix after k=5 (Davao as allowed intermediate):
+0	4	10	12	17
+4	0	6	9	14
+10	6	0	3	8
+12	9	3	0	5
+17	14	8	5	0

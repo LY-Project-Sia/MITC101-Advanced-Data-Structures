@@ -1,0 +1,60 @@
+{
+  "height_edges": 4,
+  "events": [
+    "recolor root BLACK",
+    "left rotation at Abad",
+    "recolor around Bautista (uncle red)",
+    "recolor root BLACK",
+    "left rotation at Cruz",
+    "recolor around Dela Cruz (uncle red)",
+    "left rotation at Espiritu",
+    "recolor around Flores (uncle red)",
+    "left rotation at Bautista",
+    "left rotation at Garcia",
+    "recolor around Hernandez (uncle red)",
+    "recolor around Dela Cruz (uncle red)",
+    "recolor root BLACK"
+  ],
+  "inorder": [
+    [
+      "Abad",
+      "BLACK"
+    ],
+    [
+      "Bautista",
+      "BLACK"
+    ],
+    [
+      "Cruz",
+      "BLACK"
+    ],
+    [
+      "Dela Cruz",
+      "BLACK"
+    ],
+    [
+      "Espiritu",
+      "BLACK"
+    ],
+    [
+      "Flores",
+      "BLACK"
+    ],
+    [
+      "Garcia",
+      "BLACK"
+    ],
+    [
+      "Hernandez",
+      "RED"
+    ],
+    [
+      "Ilagan",
+      "BLACK"
+    ],
+    [
+      "Jimenez",
+      "RED"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+Capacity: 29 kg
+Greedy: (2160, ['P1', 'P2', 'P3', 'P4', 'P5', 'P6'], 27)
+Optimal: 2320 ['P1', 'P2', 'P3', 'P4', 'P6', 'P7'] weight 29
+Call counts naive/memo: 453 131
+k= 1 [[0, 4, inf, 12, inf], [4, 0, 6, 16, inf], [inf, 6, 0, 3, 10], [12, 16, 3, 0, 5], [inf, inf, 10, 5, 0]]
+k= 2 [[0, 4, 10, 12, inf], [4, 0, 6, 16, inf], [10, 6, 0, 3, 10], [12, 16, 3, 0, 5], [inf, inf, 10, 5, 0]]
+k= 3 [[0, 4, 10, 12, 20], [4, 0, 6, 9, 16], [10, 6, 0, 3, 10], [12, 9, 3, 0, 5], [20, 16, 10, 5, 0]]
+k= 4 [[0, 4, 10, 12, 17], [4, 0, 6, 9, 14], [10, 6, 0, 3, 8], [12, 9, 3, 0, 5], [17, 14, 8, 5, 0]]
+k= 5 [[0, 4, 10, 12, 17], [4, 0, 6, 9, 14], [10, 6, 0, 3, 8], [12, 9, 3, 0, 5], [17, 14, 8, 5, 0]]
+Manila to Davao: 17 thousand PHP; path: Manila -> Cebu -> Davao
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

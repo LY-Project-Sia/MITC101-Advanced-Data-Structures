@@ -1,0 +1,74 @@
+[
+  {
+    "n": 8148,
+    "algorithm": "merge_sort",
+    "seconds": 0.013742727999996873,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.011580882999993491,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.0007721990000106871,
+    "status": "measured"
+  },
+  {
+    "n": 8148,
+    "algorithm": "bubble_sort",
+    "seconds": 2.546800083000008,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "merge_sort",
+    "seconds": 0.028278237999998623,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.02203610600000161,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.0016793820000060578,
+    "status": "measured"
+  },
+  {
+    "n": 17148,
+    "algorithm": "bubble_sort",
+    "seconds": null,
+    "status": "skipped: O(n^2) benchmark impractical"
+  },
+  {
+    "n": 107148,
+    "algorithm": "merge_sort",
+    "seconds": 0.2245494280000031,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "randomized_quick_sort",
+    "seconds": 0.18245262100001014,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "sorted/Timsort",
+    "seconds": 0.015149406000006138,
+    "status": "measured"
+  },
+  {
+    "n": 107148,
+    "algorithm": "bubble_sort",
+    "seconds": null,
+    "status": "skipped: O(n^2) benchmark impractical"
+  }
+]
