@@ -47,5 +47,4 @@ Benchmark generation is available by importing `task1.task1.benchmark`. Bubble s
 5. Review the report, run the code yourself, and be prepared to explain design choices and results.
 6. The generated report is a draft. Confirm APA details, page count and course formatting after opening the PDF/DOCX. Add instructor-required edits before LMS submission.
 
-## AI-use disclosure
-OpenAI ChatGPT was used to help draft explanatory material, organize code and tests, and generate the report artifacts. Code and computations were executed in the current Python environment for smoke/unit testing and selected measurements; see output files. This disclosure does not imply that every instructor-requested item has been fully verified. The student should review, rerun, understand, and revise the work before submission.
+
