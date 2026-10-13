@@ -39,12 +39,5 @@ Benchmark generation is available by importing `task1.task1.benchmark`. Bubble s
 - `sample_outputs/test_results.txt`: unit-test run.
 - `charts/`: benchmark and simulation charts.
 
-## Important caveats / verify before submission
-1. Re-run tests and all programs on the machine/environment used for submission; timings vary by hardware and Python version.
-2. The brief requests diagrams of the red-black tree after **each** insertion. The JSON event log documents recolors/rotations, but visual per-step diagrams still need to be generated or drawn and verified.
-3. Hash table formulas in the assignment are simplified expectations. The load factor for 5,000 keys at table size 8161 is about 0.613; classical unsuccessful-search estimates vary with probing assumptions and clustering. Discuss assumptions rather than claiming an exact match.
-4. Validate the tree height convention (edges versus nodes) against your instructor's preference.
-5. Review the report, run the code yourself, and be prepared to explain design choices and results.
-6. The generated report is a draft. Confirm APA details, page count and course formatting after opening the PDF/DOCX. Add instructor-required edits before LMS submission.
 
 
