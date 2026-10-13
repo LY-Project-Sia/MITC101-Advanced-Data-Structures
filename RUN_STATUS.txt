@@ -1,0 +1,5 @@
+Generated: 2026-10-13
+Seed: 7148
+Unit tests: PASS
+Task 1 benchmark rows: 12 (bubble at 107148 skipped by design)
+Instructor verification still required for red-black per-insertion drawings, source validation, and final formatting.
